@@ -1,0 +1,14 @@
+C:\Users\Muhammad Qasim Akram\Documents\Csharp\FirstWinFormsApp\bin\Debug\net10.0-windows\FirstWinFormsApp.exe
+C:\Users\Muhammad Qasim Akram\Documents\Csharp\FirstWinFormsApp\bin\Debug\net10.0-windows\FirstWinFormsApp.deps.json
+C:\Users\Muhammad Qasim Akram\Documents\Csharp\FirstWinFormsApp\bin\Debug\net10.0-windows\FirstWinFormsApp.runtimeconfig.json
+C:\Users\Muhammad Qasim Akram\Documents\Csharp\FirstWinFormsApp\bin\Debug\net10.0-windows\FirstWinFormsApp.dll
+C:\Users\Muhammad Qasim Akram\Documents\Csharp\FirstWinFormsApp\bin\Debug\net10.0-windows\FirstWinFormsApp.pdb
+C:\Users\Muhammad Qasim Akram\Documents\Csharp\FirstWinFormsApp\obj\Debug\net10.0-windows\FirstWinFormsApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Muhammad Qasim Akram\Documents\Csharp\FirstWinFormsApp\obj\Debug\net10.0-windows\FirstWinFormsApp.AssemblyInfoInputs.cache
+C:\Users\Muhammad Qasim Akram\Documents\Csharp\FirstWinFormsApp\obj\Debug\net10.0-windows\FirstWinFormsApp.AssemblyInfo.cs
+C:\Users\Muhammad Qasim Akram\Documents\Csharp\FirstWinFormsApp\obj\Debug\net10.0-windows\FirstWinFormsApp.csproj.CoreCompileInputs.cache
+C:\Users\Muhammad Qasim Akram\Documents\Csharp\FirstWinFormsApp\obj\Debug\net10.0-windows\FirstWinFormsApp.dll
+C:\Users\Muhammad Qasim Akram\Documents\Csharp\FirstWinFormsApp\obj\Debug\net10.0-windows\refint\FirstWinFormsApp.dll
+C:\Users\Muhammad Qasim Akram\Documents\Csharp\FirstWinFormsApp\obj\Debug\net10.0-windows\FirstWinFormsApp.pdb
+C:\Users\Muhammad Qasim Akram\Documents\Csharp\FirstWinFormsApp\obj\Debug\net10.0-windows\FirstWinFormsApp.genruntimeconfig.cache
+C:\Users\Muhammad Qasim Akram\Documents\Csharp\FirstWinFormsApp\obj\Debug\net10.0-windows\ref\FirstWinFormsApp.dll
