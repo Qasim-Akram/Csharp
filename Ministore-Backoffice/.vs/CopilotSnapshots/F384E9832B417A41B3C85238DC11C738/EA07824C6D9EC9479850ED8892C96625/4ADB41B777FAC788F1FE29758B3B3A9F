@@ -1,0 +1,219 @@
+﻿namespace WindowsFormsApp1.Forms
+{
+    partial class product
+    {
+        /// <summary> 
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary> 
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Component Designer generated code
+
+        /// <summary> 
+        /// Required method for Designer support - do not modify 
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.pnlToolbar = new System.Windows.Forms.Panel();
+            this.btnRefresh = new System.Windows.Forms.Button();
+            this.btnDelete = new System.Windows.Forms.Button();
+            this.btnView = new System.Windows.Forms.Button();
+            this.btnEdit = new System.Windows.Forms.Button();
+            this.btnAdd = new System.Windows.Forms.Button();
+            this.pnlFilters = new System.Windows.Forms.Panel();
+            this.cmbStockStatus = new System.Windows.Forms.ComboBox();
+            this.lblStockStatus = new System.Windows.Forms.Label();
+            this.cmbCategory = new System.Windows.Forms.ComboBox();
+            this.lblCategory = new System.Windows.Forms.Label();
+            this.txtSearch = new System.Windows.Forms.TextBox();
+            this.lblSearch = new System.Windows.Forms.Label();
+            this.dgvProducts = new System.Windows.Forms.DataGridView();
+            this.pnlToolbar.SuspendLayout();
+            this.pnlFilters.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvProducts)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // pnlToolbar
+            // 
+            this.pnlToolbar.Controls.Add(this.btnRefresh);
+            this.pnlToolbar.Controls.Add(this.btnDelete);
+            this.pnlToolbar.Controls.Add(this.btnView);
+            this.pnlToolbar.Controls.Add(this.btnEdit);
+            this.pnlToolbar.Controls.Add(this.btnAdd);
+            this.pnlToolbar.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pnlToolbar.Location = new System.Drawing.Point(0, 0);
+            this.pnlToolbar.Name = "pnlToolbar";
+            this.pnlToolbar.Size = new System.Drawing.Size(650, 40);
+            this.pnlToolbar.TabIndex = 0;
+            // 
+            // btnRefresh
+            // 
+            this.btnRefresh.Location = new System.Drawing.Point(210, 8);
+            this.btnRefresh.Name = "btnRefresh";
+            this.btnRefresh.Size = new System.Drawing.Size(40, 24);
+            this.btnRefresh.TabIndex = 4;
+            this.btnRefresh.Text = "Refresh";
+            this.btnRefresh.UseVisualStyleBackColor = true;
+            // 
+            // btnDelete
+            // 
+            this.btnDelete.Location = new System.Drawing.Point(158, 8);
+            this.btnDelete.Name = "btnDelete";
+            this.btnDelete.Size = new System.Drawing.Size(46, 24);
+            this.btnDelete.TabIndex = 3;
+            this.btnDelete.Text = "Delete";
+            this.btnDelete.UseVisualStyleBackColor = true;
+            // 
+            // btnView
+            // 
+            this.btnView.Location = new System.Drawing.Point(112, 8);
+            this.btnView.Name = "btnView";
+            this.btnView.Size = new System.Drawing.Size(40, 24);
+            this.btnView.TabIndex = 2;
+            this.btnView.Text = "View";
+            this.btnView.UseVisualStyleBackColor = true;
+            // 
+            // btnEdit
+            // 
+            this.btnEdit.Location = new System.Drawing.Point(65, 8);
+            this.btnEdit.Name = "btnEdit";
+            this.btnEdit.Size = new System.Drawing.Size(41, 24);
+            this.btnEdit.TabIndex = 1;
+            this.btnEdit.Text = "Edit";
+            this.btnEdit.UseVisualStyleBackColor = true;
+            // 
+            // btnAdd
+            // 
+            this.btnAdd.Location = new System.Drawing.Point(8, 8);
+            this.btnAdd.Name = "btnAdd";
+            this.btnAdd.Size = new System.Drawing.Size(51, 24);
+            this.btnAdd.TabIndex = 0;
+            this.btnAdd.Text = "Add";
+            this.btnAdd.UseVisualStyleBackColor = true;
+            // 
+            // pnlFilters
+            // 
+            this.pnlFilters.Controls.Add(this.cmbStockStatus);
+            this.pnlFilters.Controls.Add(this.lblStockStatus);
+            this.pnlFilters.Controls.Add(this.cmbCategory);
+            this.pnlFilters.Controls.Add(this.lblCategory);
+            this.pnlFilters.Controls.Add(this.txtSearch);
+            this.pnlFilters.Controls.Add(this.lblSearch);
+            this.pnlFilters.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pnlFilters.Location = new System.Drawing.Point(0, 40);
+            this.pnlFilters.Name = "pnlFilters";
+            this.pnlFilters.Size = new System.Drawing.Size(650, 65);
+            this.pnlFilters.TabIndex = 1;
+            // 
+            // cmbStockStatus
+            // 
+            this.cmbStockStatus.FormattingEnabled = true;
+            this.cmbStockStatus.Location = new System.Drawing.Point(450, 35);
+            this.cmbStockStatus.Name = "cmbStockStatus";
+            this.cmbStockStatus.Size = new System.Drawing.Size(180, 21);
+            this.cmbStockStatus.TabIndex = 5;
+            // 
+            // lblStockStatus
+            // 
+            this.lblStockStatus.AutoSize = true;
+            this.lblStockStatus.Location = new System.Drawing.Point(450, 15);
+            this.lblStockStatus.Name = "lblStockStatus";
+            this.lblStockStatus.Size = new System.Drawing.Size(69, 13);
+            this.lblStockStatus.TabIndex = 4;
+            this.lblStockStatus.Text = "Stock Status";
+            // 
+            // cmbCategory
+            // 
+            this.cmbCategory.FormattingEnabled = true;
+            this.cmbCategory.Location = new System.Drawing.Point(230, 35);
+            this.cmbCategory.Name = "cmbCategory";
+            this.cmbCategory.Size = new System.Drawing.Size(180, 21);
+            this.cmbCategory.TabIndex = 3;
+            // 
+            // lblCategory
+            // 
+            this.lblCategory.AutoSize = true;
+            this.lblCategory.Location = new System.Drawing.Point(230, 15);
+            this.lblCategory.Name = "lblCategory";
+            this.lblCategory.Size = new System.Drawing.Size(49, 13);
+            this.lblCategory.TabIndex = 2;
+            this.lblCategory.Text = "Category";
+            // 
+            // txtSearch
+            // 
+            this.txtSearch.Location = new System.Drawing.Point(10, 35);
+            this.txtSearch.Name = "txtSearch";
+            this.txtSearch.Size = new System.Drawing.Size(180, 20);
+            this.txtSearch.TabIndex = 1;
+            // 
+            // lblSearch
+            // 
+            this.lblSearch.AutoSize = true;
+            this.lblSearch.Location = new System.Drawing.Point(10, 15);
+            this.lblSearch.Name = "lblSearch";
+            this.lblSearch.Size = new System.Drawing.Size(41, 13);
+            this.lblSearch.TabIndex = 0;
+            this.lblSearch.Text = "Search";
+            // 
+            // dgvProducts
+            // 
+            this.dgvProducts.AllowUserToAddRows = false;
+            this.dgvProducts.AllowUserToDeleteRows = false;
+            this.dgvProducts.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvProducts.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dgvProducts.Location = new System.Drawing.Point(0, 105);
+            this.dgvProducts.Name = "dgvProducts";
+            this.dgvProducts.ReadOnly = true;
+            this.dgvProducts.Size = new System.Drawing.Size(650, 395);
+            this.dgvProducts.TabIndex = 2;
+            this.dgvProducts.AllowDrop = true;
+            this.dgvProducts.DragEnter += new System.Windows.Forms.DragEventHandler(this.dgvProducts_DragEnter);
+            this.dgvProducts.DragDrop += new System.Windows.Forms.DragEventHandler(this.dgvProducts_DragDrop);
+            // 
+            // product
+            // 
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.dgvProducts);
+            this.Controls.Add(this.pnlFilters);
+            this.Controls.Add(this.pnlToolbar);
+            this.Name = "product";
+            this.Size = new System.Drawing.Size(650, 500);
+            this.pnlToolbar.ResumeLayout(false);
+            this.pnlFilters.ResumeLayout(false);
+            this.pnlFilters.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvProducts)).EndInit();
+            this.ResumeLayout(false);
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Panel pnlToolbar;
+        private System.Windows.Forms.Panel pnlFilters;
+        private System.Windows.Forms.DataGridView dgvProducts;
+        private System.Windows.Forms.Button btnAdd;
+        private System.Windows.Forms.Button btnEdit;
+        private System.Windows.Forms.Button btnView;
+        private System.Windows.Forms.Button btnDelete;
+        private System.Windows.Forms.Button btnRefresh;
+        private System.Windows.Forms.Label lblSearch;
+        private System.Windows.Forms.TextBox txtSearch;
+        private System.Windows.Forms.Label lblCategory;
+        private System.Windows.Forms.ComboBox cmbCategory;
+        private System.Windows.Forms.Label lblStockStatus;
+        private System.Windows.Forms.ComboBox cmbStockStatus;
+    }
+}
