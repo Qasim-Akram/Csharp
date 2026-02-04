@@ -12,3 +12,4 @@ C:\Users\Muhammad Qasim Akram\Documents\Csharp\FirstWinFormsApp\obj\Debug\net10.
 C:\Users\Muhammad Qasim Akram\Documents\Csharp\FirstWinFormsApp\obj\Debug\net10.0-windows\FirstWinFormsApp.pdb
 C:\Users\Muhammad Qasim Akram\Documents\Csharp\FirstWinFormsApp\obj\Debug\net10.0-windows\FirstWinFormsApp.genruntimeconfig.cache
 C:\Users\Muhammad Qasim Akram\Documents\Csharp\FirstWinFormsApp\obj\Debug\net10.0-windows\ref\FirstWinFormsApp.dll
+C:\Users\Muhammad Qasim Akram\Documents\Csharp\FirstWinFormsApp\obj\Debug\net10.0-windows\FirstWinFormsApp.sourcelink.json

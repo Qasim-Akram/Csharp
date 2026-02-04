@@ -1,4 +1,6 @@
-﻿namespace FirstWinFormsApp;
+﻿using System.Runtime.CompilerServices;
+
+namespace FirstWinFormsApp;
 
 partial class Form1
 {
@@ -6,6 +8,7 @@ partial class Form1
     ///  Required designer variable.
     /// </summary>
     private System.ComponentModel.IContainer components = null;
+    private Button Btnclickme;
 
     /// <summary>
     ///  Clean up any resources being used.
@@ -32,6 +35,18 @@ partial class Form1
         AutoScaleMode = AutoScaleMode.Font;
         ClientSize = new Size(800, 450);
         Text = "Form1";
+        
+        Btnclickme=new Button();
+        Btnclickme.Text="Click here";
+        Btnclickme.Width=120;
+        Btnclickme.Height=40;
+        Btnclickme.Top=150;
+        Btnclickme.Left=200;
+
+        Btnclickme.Click+=Btnclickme_Click;
+        this.Controls.Add(Btnclickme);
+
+    
     }
 
     #endregion
