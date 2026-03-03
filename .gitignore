@@ -9,4 +9,8 @@
 *.sln.docstates
 
 # NuGet Packages
+<<<<<<< HEAD
 **/packages/
+=======
+**/packages/
+>>>>>>> caad3c48d1e814e36f916ccf31f3782196e0a859
