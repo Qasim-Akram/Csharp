@@ -1,0 +1,12 @@
+# This will ignore these folders no matter how deep they are
+**/.vs/
+**/bin/
+**/obj/
+
+# Specific VS files
+*.user
+*.userosscache
+*.sln.docstates
+
+# NuGet Packages
+**/packages/
